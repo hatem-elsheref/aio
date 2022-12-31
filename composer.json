@@ -3,9 +3,12 @@
     "autoload": {
         "psr-4": {
             "Hatem\\Aio\\": "src/",
-            "App\\": "/"
+            "App\\": "App/"
         },
-        "files": ["src/Support/Helpers/Helper.php"]
+        "files": [
+            "src/Support/Helpers/Helper.php",
+            "Helpers/Helper.php"
+        ]
     },
     "authors": [
         {
@@ -13,5 +16,7 @@
             "email": "hatem_mohamed_elsheref@yahoo.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.1"
+    }
 }
