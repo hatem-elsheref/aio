@@ -79,13 +79,10 @@ class Route
                     //$routeParams[] = $currentRouteSegments[$index];
                 }
             }
-
-
         }
 
         if (is_null($matchedRoute)){die("ERROR 404"); /*view 404*/}
         return $this->handleMatchedRoute($routes[$matchedRoute], $routeParams);
-
     }
 
     public function handleMatchedRoute(callable|string|array $callback, array $params = [])
@@ -106,6 +103,4 @@ class Route
            return call_user_func_array([new $parts[0], $parts[1]], $params);
        }
     }
-
-
 }

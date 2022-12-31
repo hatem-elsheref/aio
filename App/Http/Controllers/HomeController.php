@@ -9,7 +9,7 @@ class HomeController
     }
 
     public function posts($post){
-        return "Show Posts Page";
+        return "Show Posts Page " . $post;
     }
 
     public function about(){

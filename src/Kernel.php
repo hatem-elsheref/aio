@@ -1,13 +1,14 @@
 <?php
 
 namespace Hatem\Aio;
-
+use Dotenv\Dotenv;
 class Kernel
 {
     public function register(){
 
         $this->loadRoutesFiles();
         $this->loadConfigurationsFiles();
+        Dotenv::createMutable(__DIR__ . DIRECTORY_SEPARATOR . '..')->load();
 
         // load any thing here before start application
     }
