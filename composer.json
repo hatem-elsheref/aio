@@ -1,0 +1,17 @@
+{
+    "name": "elsheref/phpaio",
+    "autoload": {
+        "psr-4": {
+            "Hatem\\Aio\\": "src/",
+            "App\\": "/"
+        },
+        "files": ["src/Support/Helpers/Helper.php"]
+    },
+    "authors": [
+        {
+            "name": "hatem-elsheref",
+            "email": "hatem_mohamed_elsheref@yahoo.com"
+        }
+    ],
+    "require": {}
+}
