@@ -9,7 +9,6 @@ class ApiMiddleware
             $headers = explode(',', $_SERVER['HTTP_ACCEPT']);
             return in_array('application/json', $headers) || in_array("*/*", $headers);
         }
-
         return false;
     }
 }

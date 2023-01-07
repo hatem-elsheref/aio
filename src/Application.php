@@ -21,7 +21,7 @@ class Application
         $this->request  = new Request();
         $this->response = new Response();
         $this->route    = new Route($this->request, $this->response);
-        $this->config   = new Config(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'config');
+        $this->config   = new Config(config_path());
     }
 
 
