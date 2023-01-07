@@ -1,0 +1,16 @@
+- request class handle form inputs or request body
+- response class handle response format specially for apis
+- database class to handle operations in multi drivers database (database manager)
+- validation class
+- full authentication module for web and api with views
+- exceptions class to handle errors and report it with friendly views
+- collection class to deal with models
+- str class for string operations
+- migrations module with cli
+- simple orm
+- simple query builder
+- handle views for front end and backend
+- advanced middlewares
+- mail class for mailing
+- make cli to make new controller - model - route - views and crud operations
+- make crud directly (full api with routes )after make:crud generator in cli
