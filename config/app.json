@@ -1,0 +1,6 @@
+{
+  "env": "production",
+  "db": {
+    "usrename" : "root"
+  }
+}
